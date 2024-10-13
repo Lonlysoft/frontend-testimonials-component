@@ -16,10 +16,12 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "barlow semi condensed", sans-serif;
 }
 
 main{
   display: grid;
+  max-width: 50em;
   column-gap: 2em;
   row-gap: 1em;
   grid-template-areas: 'a a b c' 'd e e c';
