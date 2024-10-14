@@ -4,7 +4,7 @@
   --item5-bg: hsl(219, 29%, 14%);
   --font-color: hsl(0, 0%, 100%);
   --bg-bg: hsl(210, 46%, 95%);
-  --gray-unavailable: hsl(0, 0%, 81%)
+  --shadow-color: hsl(0, 0%, 81%)
 }
 
 body{
@@ -32,7 +32,7 @@ main{
   background: #62952A;
   border-radius: 1em;
   color: var(--font-color);
-  box-shadow: 1em 1em 1em var(--gray-unavailable);
+  box-shadow: 1em .5em 1em var(--shadow-color);
 }
 
 header{
